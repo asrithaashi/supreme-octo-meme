@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfcare3626"
+		},
+		"LS_PostgreSql_test_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://caresyncprojects.dfs.core.windows.net/"
+		},
+		"LS_AZURESQLDATABASE_properties_typeProperties_server": {
+			"value": "poctestserver2016.database.windows.net"
+		},
+		"LS_AZURESQLDATABASE_properties_typeProperties_database": {
+			"value": "pocdatabasetest2016"
+		},
+		"LS_AZURESQLDATABASE_properties_typeProperties_userName": {
+			"value": "asritha"
+		},
+		"LS_KeyVault_Caresync_properties_typeProperties_baseUrl": {
+			"value": "https://caresynckeyvault3626.vault.azure.net/"
+		},
+		"LS_PostgreSql_properties_typeProperties_server": {
+			"value": "ep-wispy-leaf-b71uiita-pooler.c-13.us-east-1.aws.neon.tech"
+		},
+		"LS_PostgreSql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"LS_PostgreSql_test_properties_typeProperties_server": {
+			"value": "ep-wispy-leaf-b71uiita-pooler.c-13.us-east-1.aws.neon.tech"
+		},
+		"LS_PostgreSql_test_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql_test_properties_typeProperties_username": {
+			"value": "neondb_owner "
+		}
+	}
+}
