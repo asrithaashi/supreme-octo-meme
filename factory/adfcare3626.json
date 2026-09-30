@@ -1,0 +1,15 @@
+{
+	"name": "adfcare3626",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c8c03ec2-4ddd-4e3f-98ea-5d319312e0ac",
+		"tenantId": "b9537ebf-43a0-4be3-8b6b-b687a102835c"
+	}
+}
