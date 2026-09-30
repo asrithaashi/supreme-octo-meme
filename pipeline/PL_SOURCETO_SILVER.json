@@ -30,12 +30,37 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "Set startTime",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "start_time1",
+					"value": {
+						"value": "@utcNow()",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"parameters": {
 			"table_id": {
 				"type": "string",
 				"defaultValue": "1"
+			}
+		},
+		"variables": {
+			"start_time": {
+				"type": "String"
+			},
+			"start_time1": {
+				"type": "String"
 			}
 		},
 		"annotations": []
