@@ -1,0 +1,18 @@
+{
+	"name": "LS_PostgreSql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzurePostgreSql",
+		"version": "2.0",
+		"typeProperties": {
+			"server": "ep-wispy-leaf-b71uiita-pooler.c-13.us-east-1.aws.neon.tech",
+			"port": 5432,
+			"database": "neondb",
+			"sslMode": 2,
+			"username": "neondb_owner",
+			"authenticationType": "Basic",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc3QzM2OERFLUJENTMtNENGNC04OTMyLTUyNEJDODJDNjA2Ml83MzFmZjZhYy00NTFkLTQ2Y2YtYjU5Ni1hOTE2Y2I1MzhhZmYiDQp9"
+		}
+	}
+}
